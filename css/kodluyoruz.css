@@ -1,0 +1,28 @@
+/************ Layout ***********/
+/* class -> .text-red {} */
+/* id -> #id-bilgisi {} */
+
+.center {
+    text-align: center;
+}
+
+h1 {
+    color:darkblue;
+    text-align: center;
+}
+
+a {
+    color:darkslateblue;
+    text-align: center;
+}
+
+.liste {
+    list-style-position: inside;
+    text-align: center;
+}
+
+.liste-baslik {
+    color:darkblue;
+    text-align: center;
+}
+
