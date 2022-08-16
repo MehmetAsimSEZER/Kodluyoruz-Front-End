@@ -1,14 +1,97 @@
+
+
+
+.box {
+    width: 300px;
+    height: 300px;
+    padding: 20px;
+/*  margin: 10px; */
+    margin-left: 10px;
+    margin-right: 10px; 
+/*  margin-top: 10px;
+    margin-bottom: 10px; */
+    float: left;
+}
+
+.container {
+    width: 1000px;
+/*  margin-left: auto;
+    margin-right: auto; */
+    margin: 50px 0 auto;
+}
+
+.card {
+    width: 20%;
+    float: left;
+    padding: 5%;
+    margin-right: 3%;
+    background-color: lightgray;
+    border-radius: 10px;
+}
+
+.left-bar {
+    width: 200px;
+    float: left;
+}
+
+.content {
+    width: 800px;
+    float: left;
+}
+
+.clear {
+    clear: both;
+}
+
+.bg-red {
+    background-color: red;
+}
+
+.bg-green {
+    background-color: green;
+}
+
+.bg-yellow {
+    background-color: yellow;
+}
+
 /************ Layout ***********/
 /* class -> .text-red {} */
 /* id -> #id-bilgisi {} */
+/* css selectors */
+
+.color-blue.fw-normal {
+    color: blue;
+    font-weight: bold;
+}
+
+li:first-child {
+    color: green;
+}
+
+li:last-child {
+    color: yellow;
+}
+
+li:nth-child(2) {
+    color: red;
+}
+
+li:nth-child(odd,even) {
+    color: aqua;
+}
 
 .center {
     text-align: center;
 }
 
-h1 {
+/*h1 {
     color:darkblue;
     text-align: center;
+}
+*/
+p {
+    font-size: 20px;
 }
 
 a {
